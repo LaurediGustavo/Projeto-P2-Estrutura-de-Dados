@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1655042693 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreAVL.h"
+
+1655044561 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArvoreRubroNegra.h"
+	"ArvoreAVL.h"
+
+1655044584 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.c
+	<stdio.h>
+	<stdlib.h>
+	"ArvoreRubroNegra.h"
+
+1655044528 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.h
+
+1655042992 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvoreavl.h
+
