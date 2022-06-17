@@ -6,7 +6,7 @@
 #define BLACK 0
 
 struct NO {
-    struct FUNCIONARIO funcionario;
+    FuncionarioRubroNegra funcionario;
     struct NO *esq;
     struct NO *dir;
     int cor;
@@ -96,7 +96,7 @@ struct NO *balancear(struct NO *H) {
     return H;
 }
 
-struct NO *insereNO(struct NO *H, Funcionario funcionario, int *resp) {
+struct NO *insereNO(struct NO *H, FuncionarioRubroNegra funcionario, int *resp) {
     if(H == NULL) {
         struct NO *novo;
         novo = (struct NO*) malloc(sizeof(struct NO));
@@ -135,7 +135,7 @@ struct NO *insereNO(struct NO *H, Funcionario funcionario, int *resp) {
     return H;
 }
 
-int insere_arvoreRubroNegra(ArvoreRubroNegra *raiz, Funcionario funcionario) {
+int insere_arvoreRubroNegra(ArvoreRubroNegra *raiz, FuncionarioRubroNegra funcionario) {
     int resp = 1;
 
     *raiz = insereNO(*raiz, funcionario, &resp);
@@ -168,7 +168,7 @@ struct NO *procuraMenor(struct NO *atual) {
     return no1;
 }
 
-struct NO *removeNO(struct NO *H, struct FUNCIONARIO funcionario) {
+struct NO *removeNO(struct NO *H, FuncionarioRubroNegra funcionario) {
     if(funcionario.id < H->funcionario.id) {
         if(cor(H->esq) == BLACK && cor(H->esq->esq) == BLACK) {
             H = move2EsqRED(H);
@@ -198,7 +198,7 @@ struct NO *removeNO(struct NO *H, struct FUNCIONARIO funcionario) {
     return balancear(H);
 }
 
-int consulta_arvoreLLRB(ArvoreRubroNegra *raiz, Funcionario funcionario) {
+int consulta_arvoreLLRB(ArvoreRubroNegra *raiz, FuncionarioRubroNegra funcionario) {
     if(raiz == NULL) {
         return 0;
     }
@@ -217,7 +217,7 @@ int consulta_arvoreLLRB(ArvoreRubroNegra *raiz, Funcionario funcionario) {
     return 0;
 }
 
-int remove_arvoreRubroNegra(ArvoreRubroNegra *raiz, Funcionario funcionario) {
+int remove_arvoreRubroNegra(ArvoreRubroNegra *raiz, FuncionarioRubroNegra funcionario) {
     if(consulta_arvoreLLRB(raiz, funcionario)) {
         struct NO *H = *raiz;
         *raiz = removeNO(H, funcionario);

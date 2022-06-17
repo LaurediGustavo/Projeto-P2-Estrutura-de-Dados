@@ -4,19 +4,27 @@
 	<stdlib.h>
 	"ArvoreAVL.h"
 
-1655044561 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\main.c
+1655060561 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<sys/time.h>
 	"ArvoreRubroNegra.h"
 	"ArvoreAVL.h"
 
-1655044584 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.c
+1655060435 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.c
 	<stdio.h>
 	<stdlib.h>
 	"ArvoreRubroNegra.h"
 
-1655044528 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.h
+1655060335 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvorerubronegra.h
 
 1655042992 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\arvoreavl.h
+
+1655507968 source:c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\quicksort.c
+	<stdio.h>
+	<stdlib.h>
+	"QuickSort.h"
+
+1655507502 c:\users\lauredirigoni\documents\gustavo\estudos\academico\ifsp\3° semestre\estrutura de dados\trabalho 2\projeto-p2-estrutura-de-dados\projeto_p2\quicksort.h
 
